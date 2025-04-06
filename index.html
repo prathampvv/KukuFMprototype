@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuku FM - AI StoryPlay</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-heading">🎧 AI StoryPlay — Powered by Kuku FM</h1>
+    <p class="subheading">Choose a genre and listen to a fresh, AI-generated audio story!</p>
+
+    <div class="genre-select">
+      <select id="genre">
+        <option value="motivation">💪 Motivation</option>
+        <option value="romance">💖 Romance</option>
+        <option value="thriller">🕵️ Thriller</option>
+      </select>
+      <button onclick="generateStory()">Generate Story</button>
+    </div>
+
+    <div id="story-section" class="hidden">
+      <div id="story-text" class="story-box">Your story will appear here...</div>
+      <audio id="audio-player" controls class="hidden"></audio>
+
+      <div class="feedback-buttons">
+        <button onclick="giveFeedback('👍')">👍 Loved it</button>
+        <button onclick="giveFeedback('👎')">👎 Not Great</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
