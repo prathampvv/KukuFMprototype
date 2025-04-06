@@ -42,7 +42,7 @@ To build an immersive feature that:
 
 ## 🌐 Live Demo
 
-🔗 **Live App**: [https://kukuproto.vercel.app]([https://kukuproto.vercel.app](https://vercel.com/prathams-projects-2dca6fac/kuku-f-mprototype))  
+🔗 **Live App**: [https://vercel.com/prathams-projects-2dca6fac/kuku-f-mprototype]([https://kukuproto.vercel.app](https://vercel.com/prathams-projects-2dca6fac/kuku-f-mprototype))  
 💻 **GitHub Repository**: [https://github.com/prathampvv/KukuFMprototype](https://github.com/prathampvv/KukuFMprototype)
 
 ---
